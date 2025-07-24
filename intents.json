@@ -1,0 +1,124 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, how are you",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "good_morning",
+      "patterns": ["Good Morning", "good morning", "goodmorning", "gud morning", "gud morng"],
+      "responses": [
+        "Good Morning :)",
+        "Good Morning! how are you today?",
+        "Good Morning and hope you have a nice day ahead."
+      ]
+    },
+    {
+      "tag": "good_night",
+      "patterns": ["Good Night", "good night", "goodnight", "gud night"],
+      "responses": [
+        "Good Night! , See you later",
+        "Good Night!, Thanks for visiting",
+        "Good Night, Have a nice sleep",
+        "Good Night! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "design",
+      "patterns": [
+        "Who created you ?",
+        "Who designed you ?",
+        "Who made you?"
+      ],
+      "responses": [
+        "I am designed by Shaleen, Harsh, Anjali and Pooja",
+        "Shaleen, Harsh, Anjali and Pooja designed me."
+      ]
+    },
+    {
+      "tag": "botname",
+      "patterns": [
+        "Who are you?",
+        "What is your name?",
+        "Can I know your name?"
+      ],
+      "responses": [
+        "My name is PyBot. And I answer questions",
+        "I am PyBot."
+      ]
+    },
+    {
+        "tag": "feel",
+      "patterns": [
+        "How are you?",
+        "How are you feeling?",
+        "How are you today?"
+      ],
+      "responses": [
+        "I am feeling good. Thanks for asking. And you ?",
+        "I am good. How are you ?.",
+        "I am fine. How are you feeling today ?",
+        "I am fine. What about you?"
+      ]
+    },
+    {
+        "tag": "feeling",
+      "patterns": [
+        "I am good",
+        "I am fine",
+        "I am happy",
+        "I am Ok"
+      ],
+      "responses": [
+        "That's good. Tell me, How can I help you today?",
+        "That's good to hear. How can I help  you?.",
+        "That's nice. Is there anything I could help you with ?"
+      ]
+    },
+    {
+        "tag": "sad",
+      "patterns": [
+        "I am sad",
+        "I am upset",
+        "I am not fine",
+        "I am not Ok",
+        "I am not good",
+        "I am angry"
+
+      ],
+      "responses": [
+        "That's sad. Tell me, How can I help you feel better?",
+        "Sorry to hear that. How can I help  you?.",
+        "That's ok, everything will be fine. Is there anything I could help you with ?"
+      ]
+    }
+    
+  ]
+}
